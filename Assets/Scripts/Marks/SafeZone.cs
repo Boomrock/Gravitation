@@ -24,7 +24,7 @@ public class SafeZone : MonoBehaviour
             return;
         }
         
-        _speed += 2e-5f;
+        _speed += 4e-5f;
 
         Vector3 direction = (_player.transform.position - transform.position) + _offset;
         direction.x = 0;
